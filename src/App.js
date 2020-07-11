@@ -1,23 +1,20 @@
 import React from 'react';
 import './App.css';
 
-
-
-/*
-function someFunction() {
-
-
-Functions like figuring out the infinite scroll and input output will be above the App function
-
-}
-*/
-
-
-
-// This is the main code below, this of the App function as your int main()
-// Everything above is going to be your functions, think of them like prototyping your functions
-
 function App() {
+
+  /*
+  function someFunction() {
+
+
+  Functions like figuring out the infinite scroll and input output will be above the App function
+
+  }
+  */
+
+
+  // Everything above is going to be your functions, think of them like prototyping your functions
+  // This is the main code below, think of the return in the App function as your int main()
   return (
     <div> {/* Between this div is the main div container, everything in here will be the website */}
 
