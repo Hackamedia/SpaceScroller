@@ -1,11 +1,3 @@
-.background-image {
-    object-fit: contain;
-    width: 100vw;
-    height: 110vh;
-    margin: -10px;
-    z-index: ;
-}
-
 .image {
     object-fit: contain;
     width: 50vw;
@@ -14,4 +6,13 @@
 
 .scroll {
     height: 100vh;
+}
+
+.background-image {
+    position: absolute;
+    background: url("./night1.jpg");
+    width: 100%;
+    height: 1000vh;
+    top: 0;
+    left: 0;   
 }

@@ -4,7 +4,6 @@ import Interactions from './Interactions';
 import './App.css';
 
 function App() {
-
   
   var image1 = new Image();
   var image2 = new Image();
@@ -34,15 +33,13 @@ function App() {
   return (
     <div> {/* Between this div is the main div container, everything in here will be the website */}
 
-    <Interactions/>
+    {/* <Interactions/> */}
         
-        <div> {/* Between this div is where you're going to call the scrolling function */}
+        <div className="background-image"> {/* Between this div is where you're going to call the scrolling function */}
 
-          <div className="scroll"></div>
+          {/* <Parallax bgImage={image1.src} className="background-image" strength="100">
 
-          <Parallax bgImage={image1.src} className="background-image" strength="100">
-
-          </Parallax>
+          </Parallax> */}
           
           
 
@@ -54,7 +51,7 @@ function App() {
 
               <div> {/* Between this div is where visual animations are going to be (Like the rocket ship and the person travelling) */}
 
-                <Parallax bgImage={image2.src} className="image" strength="300">
+                {/* <Parallax bgImage={image2.src} className="image" strength="300">
 
                 </Parallax>
 
@@ -72,7 +69,7 @@ function App() {
 
                 <Parallax bgImage={image6.src} className="image" strength="300">
 
-                </Parallax>
+                </Parallax> */}
 
               </div>
 
