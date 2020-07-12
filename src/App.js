@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
+import Interactions from './Interactions';
 import './App.css';
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
   // This is the main code below, think of the return in the App function as your int main()
   return (
     <div> {/* Between this div is the main div container, everything in here will be the website */}
+
+    <Interactions/>
         
         <div> {/* Between this div is where you're going to call the scrolling function */}
 
