@@ -32,17 +32,16 @@ function App() {
   // This is the main code below, think of the return in the App function as your int main()
   return (
     <div> {/* Between this div is the main div container, everything in here will be the website */}
-
-    {/* <Interactions/> */}
-        
+        <Interactions/>
+            
         <div className="background-image"> {/* Between this div is where you're going to call the scrolling function */}
-
+        
           {/* <Parallax bgImage={image1.src} className="background-image" strength="100">
 
           </Parallax> */}
-          
-          
 
+          <img src="./mc.svg"/>
+          
             <div> {/* Between this div is where the background image is going to go */}   
 
               <div> {/* Between this div is where the text prompts are going to be */}
