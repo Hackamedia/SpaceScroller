@@ -3,12 +3,3 @@
     width: 50vw;
     height: 50vh;
 }
-
-.background-image {
-    position: absolute;
-    background: url("./night1.jpg");
-    width: 100%;
-    height: 1000vh;
-    top: 0;
-    left: 0;
-}
