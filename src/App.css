@@ -12,11 +12,20 @@
     height: 110vh;
 }
 
-.pictureDiv {
+.pictureDiv, .textDiv {
     position: absolute;
     height: 100%;
     width: 100%;
-    /* border: 5px solid black; */
+}
+
+.textDiv {
+    border: 5px solid black;
+}
+
+.text {
+    color: white;
+    font-size: 300%;
+    text-align: center;
 }
 
 .clouds {
