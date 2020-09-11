@@ -25,7 +25,7 @@ function App() {
               <Parallax speed={-3}>
                 <img className="sun" src="./pages/Page1/Sun.svg" alt=""/>
               </Parallax>
-              <img className="boyMC1" src="./pages/Page1/BoyMC.svg" alt=""/>
+              <img className="boyMC1" src="./pages/Page1/GirlMC.svg" alt=""/>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ function App() {
               <Parallax speed={-2}>
                 <img className="moon" src="./pages/Page2/Moon.svg" alt=""/>
               </Parallax>
-              <img className="boyMC2" src="./pages/Page2/BoyMC.svg" alt=""/>
+              <img className="boyMC2" src="./pages/Page2/GirlMC.svg" alt=""/>
             </div>
           </div>
 
