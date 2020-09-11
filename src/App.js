@@ -1,85 +1,52 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
-import Page1 from './Page1';
 import './App.css';
+import Parallax from 'react-rellax'
+
 
 function App() {
   
-  var image1 = new Image();
-  var image2 = new Image();
-  var image3 = new Image();
-  var image4 = new Image();
-  var image5 = new Image();
-  var image6 = new Image();
-
-  image1.src = "./night.jpg";
-  image2.src = "./LOL.jpg";
-  image3.src = "./RaWRxD.jpg";
-  image4.src = "./Goteem.jpg";
-  image5.src = "./LUL.jpg";
-  image6.src = "./Hehehe.jpg"
-
-  /*
-  function someFunction() {
-
-
-  Functions like figuring out the infinite scroll and input output will be above the App function
-
-  }
-  */
-
-  // Everything above is going to be your functions, think of them like prototyping your functions
-  // This is the main code below, think of the return in the App function as your int main()
   return (
-    <div> {/* Between this div is the main div container, everything in here will be the website */}
-        
+    <div className="container">
+      {/* <audio controls autoPlay loop>
+        <source src="Moon.mp3" type="audio/mpeg"/>
+      </audio> */}
+
+      <Parallax speed={-1}>
+        <div className="page1">
+          <div className="pictureDiv">
+            <Parallax speed={-2}>
+              <img className="clouds" src="./pages/Page1/Clouds.svg" alt=""/>
+            </Parallax>
+            <img className="mountains" src="./pages/Page1/Mountains.svg" alt=""/>
             
-        <div> {/* Between this div is where you're going to call the scrolling function */}
-        
-          {/* <Parallax bgImage={image1.src} className="background-image" strength="100">
-
-          </Parallax> */}
-
-            <Page1/>
-          
-            <div> {/* Between this div is where the background image is going to go */}   
-
-              <div> {/* Between this div is where the text prompts are going to be */}
-                
-              </div>
-
-              <div> {/* Between this div is where visual animations are going to be (Like the rocket ship and the person travelling) */}
-
-                {/* <Parallax bgImage={image2.src} className="image" strength="300">
-
-                </Parallax>
-
-                <Parallax bgImage={image3.src} className="image" strength="300">
-
-                </Parallax>
-
-                <Parallax bgImage={image4.src} className="image" strength="300">
-
-                </Parallax>
-
-                <Parallax bgImage={image5.src} className="image" strength="300">
-
-                </Parallax>
-
-                <Parallax bgImage={image6.src} className="image" strength="300">
-
-                </Parallax> */}
-
-              </div>
-
-              <div> {/* Between this div is where any audio is going to go */}
-
-              </div>
-
+            <div className="mountainDiv1">
+              <Parallax speed={-3}>
+                <img className="sun" src="./pages/Page1/Sun.svg" alt=""/>
+              </Parallax>
+              <img className="boyMC1" src="./pages/Page1/BoyMC.svg" alt=""/>
             </div>
-          
+          </div>
         </div>
+      </Parallax>
 
+      <Parallax speed={-1}>
+        <div className="page2">
+          <div className="pictureDiv">
+            <Parallax speed={-1}>
+              <img className="stars" src="./pages/Page2/Stars.svg" alt=""/>
+            </Parallax>
+            <img className="mountains" src="./pages/Page2/Mountains.svg" alt=""/>
+            
+            <div className="mountainDiv2">
+              <Parallax speed={-2}>
+                <img className="moon" src="./pages/Page2/Moon.svg" alt=""/>
+              </Parallax>
+              <img className="boyMC2" src="./pages/Page2/BoyMC.svg" alt=""/>
+            </div>
+          </div>
+        </div>
+      </Parallax>
+      
     </div>
   );
 }
