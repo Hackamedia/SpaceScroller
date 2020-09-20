@@ -10,6 +10,7 @@
     background-image: url('SVGBackgrounds/Page1.svg');
     background-size: cover;
     height: 110vh;
+    margin: -8px;
 }
 
 .pictureDiv, .textDiv {
@@ -29,7 +30,7 @@
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;
-    top: 5%;
+    top: 5vh;
     z-index: 1;
     /* border: 5px solid black; */
 }
@@ -76,13 +77,13 @@
     background-image: url('SVGBackgrounds/Page2.svg');
     background-size: cover;
     height: 110vh;
+    margin: -8px;
 }
 
 .stars {
     position: absolute;
     width: 100%;
-    top: 0;
-    /* height: 50%; */
+    top: -10vh;
     z-index: 1;
     /* border: 5px solid black; */
 }
