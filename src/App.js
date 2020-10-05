@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Parallax from 'react-rellax'
 
 function App() {
   
@@ -10,54 +9,31 @@ function App() {
         <source src="Moon.mp3" type="audio/mpeg"/>
       </audio> */}
 
-      <Parallax speed={-1}>
- 
-        <div className="page1">
-
-          <div className="pictureDiv">
-            <Parallax speed={-3}>
-              <img className="clouds" src="./pages/Page1/Clouds.svg" alt=""/>
-            </Parallax>
-            <img className="mountains" src="./pages/Page1/Mountains.svg" alt=""/>
-
-            <div className="mountainDiv1">
-              <Parallax speed={-4}>
-                <img className="sun" src="./pages/Page1/Sun.svg" alt=""/>
-              </Parallax>
-              <img className="boyMC1" src="./pages/Page1/GirlMC.svg" alt=""/>
-            </div>
+      <div className="page1">
+        <div className="pictureDiv">
+          <p className="text">Ever since Kay was a baby</p>
+          <div className="animate"/>
+          <img className="clouds" src="./pages/Page1/Clouds.svg" alt=""/>
+          <img className="mountains" src="./pages/Page1/Mountains.svg" alt=""/>
+          
+          <div className="mountainDiv1">
+            <img className="boyMC1" src="./pages/Page1/BoyMC.svg" alt=""/>
+            <img className="sun" src="./pages/Page1/Sun.svg" alt=""/>
           </div>
+        </div>        
+      </div>
 
-          <div className="textDiv">
-            <p class="text">Ever since Kay was a baby</p>
-          </div>
-        </div>
-      </Parallax>
-
-      <Parallax speed={-1}>
-
-        <div className="page2">
-
-          <div className="pictureDiv">
-            <Parallax speed={-3}>
-              <img className="stars" src="./pages/Page2/Stars.svg" alt=""/>
-            </Parallax>
-            <img className="mountains" src="./pages/Page2/Mountains.svg" alt=""/>
-            
-            <div className="mountainDiv2">
-
-              <Parallax speed={-4}>
-                <img className="moon" src="./pages/Page2/Moon.svg" alt=""/>
-              </Parallax>
-              <img className="boyMC2" src="./pages/Page2/GirlMC.svg" alt=""/>
-            </div>
-          </div>
-
-          <div className="textDiv">
-            <p class="text">Everyone told her to shoot for the stars</p>
+      {/* <div className="page2">
+        <div className="pictureDiv">
+          <img className="stars" src="./pages/Page2/Stars.svg" alt=""/>
+          <img className="moon" src="./pages/Page2/Moon.svg" alt=""/>
+          <img className="mountains" src="./pages/Page2/Mountains.svg" alt=""/>
+          
+          <div className="mountainDiv2">
+            <img className="boyMC2" src="./pages/Page2/BoyMC.svg" alt=""/>
           </div>
         </div>
-      </Parallax>
+      </div>       */}
       
     </div>
   );
